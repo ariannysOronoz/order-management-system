@@ -1,0 +1,11 @@
+.food-item-card {
+    display: flex;
+    height: 3rem;
+    width: 80%;
+}
+.food-item-common {
+    display: flex;
+    height: 60%;
+    width: 60%; 
+    align-items: center;
+}

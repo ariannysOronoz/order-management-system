@@ -1,0 +1,28 @@
+.image-card {
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.image-card-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.content-card {
+    padding: 1rem;
+}
+.card-title {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #333;
+}
+.card-description {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 0.5rem;
+}

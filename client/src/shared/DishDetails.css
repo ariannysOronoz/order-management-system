@@ -1,0 +1,34 @@
+.dish-details {
+    width: 95%; 
+    flex-direction: row;
+    border: 0.0625rem solid #ddd;
+    border-radius: 0.5rem;
+    margin: 20px;
+}
+.dish-details:active {
+    background-color: #858384; /* Cambia el fondo a un tono más oscuro al hacer clic */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Sombra más oscura */
+  }
+  
+
+.summary-column1 {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    height: auto;
+    gap: 0.5rem;
+}
+
+.summary-column2 {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    width: 10rem;
+    height: 1.2rem; 
+    border: 0.0625rem solid #ddd;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+

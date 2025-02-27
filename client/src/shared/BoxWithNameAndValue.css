@@ -1,0 +1,8 @@
+.boxWithNameAndValue {
+    width: 95%; 
+}
+.box-common {
+    display: flex;
+    width: auto;
+    height: 1.5rem;   
+}

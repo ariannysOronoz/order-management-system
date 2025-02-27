@@ -1,0 +1,47 @@
+.global-card-style {
+    border: 0.0625rem solid #ddd;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.global-flex-center {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.global-hover-effect {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.global-padding-default {
+    padding: 1rem;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 480px) {
+    .responsive-full {
+        width: 100%;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+    .responsive-tablet {
+        width: 90%;
+        padding: 0.5rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .responsive-tablet {
+        width: 95%;
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .responsive-large {
+        width: 80%;
+    }
+}
